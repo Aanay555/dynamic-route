@@ -1,14 +1,16 @@
 import Link from "next/link";
 import Image from "next/image";
-import PakistanDescription, { PakistanGallery } from "../../../../components/pak";
-import PalestineDescription from "../../../../components/palestine";
-import { PalestineGallery } from "../../../../components/palestine";
-import IranDescription from "../../../../components/iran";
-import { IranGallery } from "../../../../components/iran";
-import YemenDescription from "../../../../components/yemen";
-import { YemenGallery } from "../../../../components/yemen";
-import LebanonDescription from "../../../../components/lebanon";
-import { LebanonGallery } from "../../../../components/lebanon";
+// import PakistanDescription, { PakistanGallery } from "../../components/pak";
+import PalestineDescription from "../../components/palestine";
+import { PalestineGallery } from "../../components/palestine";
+import IranDescription from "../../components/iran";
+import { IranGallery } from "../../components/iran";
+import YemenDescription from "../../components/yemen";
+import { YemenGallery } from "../../components/yemen";
+import LebanonDescription from "../../components/lebanon";
+import { LebanonGallery } from "../../components/lebanon";
+import PakistanDescription from "../../components/pak";
+import { PakistanGallery } from "../../components/pak";
 type Country_Name = {
   CountryName: string;
   Capital: string;
